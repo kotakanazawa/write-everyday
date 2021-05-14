@@ -1,0 +1,21 @@
+<h1>users#index</h1>
+
+<h2>User name</h2>
+<%= @user.name %>
+
+<h2>Tag list</h2>
+<%= @user.tag_list %>
+
+<h2>Skill list</h2>
+<% @user.skill_list.each do |skill| %>
+  <ul>
+    <li><%= skill %></li>
+  </ul>
+<% end %>
+
+<h2>Interest list</h2>
+<% @user.interest_list.each do |interest| %>
+  <ul>
+    <li><%= interest %></li>
+  </ul>
+<% end %>
