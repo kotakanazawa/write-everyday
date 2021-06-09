@@ -81,5 +81,6 @@ test:
 production:
   <<: *default
   database: write_everyday_production
-  username: write_everyday
-  password: <%= ENV['WRITE_EVERYDAY_DATABASE_PASSWORD'] %>
+  username: kotakanazawa
+  password: password
+  # password: <%= ENV['WRITE_EVERYDAY_DATABASE_PASSWORD'] %>
